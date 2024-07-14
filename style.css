@@ -1,0 +1,44 @@
+.calculator {
+    height: 550px;
+    width: 500px;
+    margin: 50px auto; /* Center the calculator horizontally with 50px top margin */
+    background-color: rgb(181, 181, 206); /* Optional: for visualization */
+    border: 50px solid rgb(134, 130, 130);
+    border-radius: 50px;
+}
+
+.final, .rough, .firstrow, .secondrow, .thirdrow, .fourthrow {
+    height: 83.33px;
+    width: 500px;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(181, 181, 206);
+}
+button {
+    height: 83.33px;
+    width: 125px;
+    margin-right: 5px; 
+    margin-left: 2.5px;
+    font-size: larger;
+    background-color: white;
+}
+.final{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:100px;
+    font-weight: bolder;
+}
+.rough{
+    background-color: rgba(38, 40, 41, 0.964);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    margin-bottom: 0px;
+}
+.subtract{
+    font-size:xx-large;
+}
+
